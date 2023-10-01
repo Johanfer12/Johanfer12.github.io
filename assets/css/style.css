@@ -474,13 +474,14 @@ main { overflow-x: hidden; }
 
 .hero-banner {
   max-width: 500px;
-  width: 125%;
+  max-height: 500px;
+  width: 100%;
   margin-bottom: 30px;
 }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
 
-.hero-content { max-width: 450px; }
+.hero-content { max-width: 450px;}
 
 .hero-title {
   text-align: center;
@@ -1134,7 +1135,7 @@ textarea.input-field {
 
   .hero-content {
     --color-primary: var(--white);
-
+    margin-top: 260px;
     position: absolute;
     top: 50%;
     filter: drop-shadow(2px 4px 10px var(--black));
