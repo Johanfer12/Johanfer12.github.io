@@ -11,7 +11,7 @@
   
   <img src="./readme-images/project-logo.jpeg" />
 
-  <h2 align="center">Johan - Personal portfolio</h2>
+  <h2 align="center">Johan - Personal Portfolio</h2>
 
   This website is fully responsive personal portfolio, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
@@ -19,7 +19,7 @@
 
 <br />
 
-### Demo Screenshots
+### Screenshot
 
 ![Johan Portfolio Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 

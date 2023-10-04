@@ -5,7 +5,7 @@ Johan - personal portfolio
 Johan.
 
 En
-Ar
+Es
 
 aria-label = Change Theme
 title = Change Theme
@@ -23,7 +23,7 @@ Contact.
 
 # HERO
 
-alt = A man in a blue shirt with a happy expression
+alt = An icon with a JOHAN word
 
 We Design & Build Creative Products
 
@@ -69,9 +69,10 @@ alt = A man in a alice blue shirt with a thinking expression
 
 About me
 
-Need a Creative Product? I can Help You!
+Looking for a creative data-driven solution? I can assist you!
 
-Hi! I’m Jack Reacher, and I’m a developer who has passion for building clean web applications with intuitive functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.
+
+Hi there! I'm Johan González, and I'm a data analyst with a passion for dissecting data and crafting insightful solutions. I thrive on the process of transforming raw data into meaningful insights using creative approaches. I'm always eager to learn new skills, tools, and concepts in the field of data analysis. In addition to working on various independent data analysis projects, I've collaborated with cross-functional teams, which involves daily check-ins, data management, and project coordination.
 
 Hire me
 
