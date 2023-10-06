@@ -6,10 +6,6 @@
  * copyright 2022 codewithsadee
  */
 
-
-
-
-
 /*-----------------------------------*\
  * #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -55,7 +51,7 @@
    * spacing
    */
 
-  --section-padding: 80px;
+  --section-padding: 50px;
 
   /**
    * radius
@@ -65,10 +61,6 @@
   --radius-12: 12px;
 
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #THEME COLORS
@@ -99,10 +91,6 @@ body.light_theme {
   --shadow-1: 10px 10px 40px var(--card-shadow);
 
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #RESET
@@ -167,10 +155,6 @@ body {
 }
 
 body.active { overflow: hidden; }
-
-
-
-
 
 /*-----------------------------------*\
  * #REUSED STYLE
@@ -452,10 +436,6 @@ body.active { overflow: hidden; }
 
 .navbar-link:is(:hover, :focus)::before { width: 100%; }
 
-
-
-
-
 /*-----------------------------------*\
  * #HERO
 \*-----------------------------------*/
@@ -468,7 +448,7 @@ main { overflow-x: hidden; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 115px;
+  padding-top: var(--section-padding);
   margin-bottom: var(--section-padding);
 }
 
@@ -476,7 +456,8 @@ main { overflow-x: hidden; }
   max-width: 500px;
   max-height: 500px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
+  margin-top: 40px;
 }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
@@ -485,10 +466,15 @@ main { overflow-x: hidden; }
 
 .hero-title {
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-.hero .btn-primary { margin-inline: auto; }
+.hero .btn-primary { 
+  margin-inline: auto;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
 
 
 
@@ -732,10 +718,6 @@ main { overflow-x: hidden; }
   margin-inline: auto;
 }
 
-
-
-
-
 /*-----------------------------------*\
  * #CONTACT
 \*-----------------------------------*/
@@ -855,10 +837,6 @@ textarea.input-field {
   color: var(--bg-primary);
 }
 
-
-
-
-
 /*-----------------------------------*\
  * #FOOTER
 \*-----------------------------------*/
@@ -881,10 +859,6 @@ textarea.input-field {
   display: inline-block;
   color: var(--raw-seinna);
 }
-
-
-
-
 
 /*-----------------------------------*\
  * #GO TO TOP
@@ -915,10 +889,6 @@ textarea.input-field {
   transform: translateY(0);
 }
 
-
-
-
-
 /*-----------------------------------*\
  * #MEDIA QUERIES
 \*-----------------------------------*/
@@ -940,8 +910,6 @@ textarea.input-field {
 
   .section-title { max-width: 380px; }
 
-
-
   /**
    * PROJECT
    */
@@ -954,10 +922,6 @@ textarea.input-field {
   .project-list > li:first-child { column-span: all; }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 768px screen
@@ -973,15 +937,11 @@ textarea.input-field {
 
   .section-title { max-width: 430px; }
 
-
-
   /**
    * STATS
    */
 
   .stats-list { grid-template-columns: 1fr 1fr; }
-
-
 
   /**
    * ABOUT
@@ -998,8 +958,6 @@ textarea.input-field {
 
   .about .btn-secondary { margin-bottom: 0; }
 
-
-
   /**
    * CONTACT
    */
@@ -1010,10 +968,6 @@ textarea.input-field {
   }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 992px screen
@@ -1040,8 +994,6 @@ textarea.input-field {
     --section-padding: 100px;
 
   }
-
-
 
   /**
    * REUSED STYLE
@@ -1108,7 +1060,6 @@ textarea.input-field {
   }
 
   .navbar-link::before { height: 2px; }
-
 
 
   /**
@@ -1212,12 +1163,12 @@ textarea.input-field {
    * STATS
    */
 
-  .stats-list { grid-template-columns: repeat(3, 1fr); }
+  .stats-list { 
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+  }
 
   .stats-card { height: 100%; }
-
-
-
 
   /**
    * ABOUT
@@ -1231,9 +1182,6 @@ textarea.input-field {
   }
 
   .about-banner { margin-bottom: 0; }
-
-
-
 
   /**
    * SKILLS
@@ -1249,8 +1197,6 @@ textarea.input-field {
   .skills-content { margin-bottom: 0; }
 
   .skills-toggle { margin-inline: 0; }
-
-
 
   /**
    * PROJECT
